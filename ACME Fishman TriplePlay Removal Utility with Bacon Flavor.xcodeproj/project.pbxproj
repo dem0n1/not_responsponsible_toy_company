@@ -14,6 +14,7 @@
 		85EB005C170E9D0700944C03 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 85EB005A170E9D0700944C03 /* Credits.rtf */; };
 		85EB005E170E9D0700944C03 /* FSHAppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 85EB005D170E9D0700944C03 /* FSHAppDelegate.applescript */; };
 		85EB0061170E9D0800944C03 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85EB005F170E9D0800944C03 /* MainMenu.xib */; };
+		85EB0068170E9D9D00944C03 /* *ACME*1.1.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 85EB0067170E9D9D00944C03 /* *ACME*1.1.applescript */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		85EB005B170E9D0700944C03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		85EB005D170E9D0700944C03 /* FSHAppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = FSHAppDelegate.applescript; sourceTree = "<group>"; };
 		85EB0060170E9D0800944C03 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		85EB0067170E9D9D00944C03 /* *ACME*1.1.applescript */ = {isa = PBXFileReference; explicitFileType = sourcecode.applescript; fileEncoding = 4; name = "*ACME*1.1.applescript"; path = "ACME Fishman TriplePlay Removal Utility with Bacon Flavor/*ACME*1.1.applescript"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				85EB0053170E9D0700944C03 /* ACME Fishman TriplePlay Removal Utility with Bacon Flavor-Info.plist */,
 				85EB0054170E9D0700944C03 /* InfoPlist.strings */,
+				85EB0067170E9D9D00944C03 /* *ACME*1.1.applescript */,
 				85EB0057170E9D0700944C03 /* main.m */,
 				85EB0059170E9D0700944C03 /* ACME Fishman TriplePlay Removal Utility with Bacon Flavor-Prefix.pch */,
 				85EB005A170E9D0700944C03 /* Credits.rtf */,
@@ -171,6 +174,7 @@
 			files = (
 				85EB0058170E9D0700944C03 /* main.m in Sources */,
 				85EB005E170E9D0700944C03 /* FSHAppDelegate.applescript in Sources */,
+				85EB0068170E9D9D00944C03 /* *ACME*1.1.applescript in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
