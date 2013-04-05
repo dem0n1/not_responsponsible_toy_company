@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85EB004A170E9D0700944C03 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85EB0049170E9D0700944C03 /* Cocoa.framework */; };
+		85EB004C170E9D0700944C03 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85EB004B170E9D0700944C03 /* AppleScriptObjC.framework */; };
+		85EB0056170E9D0700944C03 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85EB0054170E9D0700944C03 /* InfoPlist.strings */; };
+		85EB0058170E9D0700944C03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EB0057170E9D0700944C03 /* main.m */; };
+		85EB005C170E9D0700944C03 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 85EB005A170E9D0700944C03 /* Credits.rtf */; };
+		85EB005E170E9D0700944C03 /* FSHAppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 85EB005D170E9D0700944C03 /* FSHAppDelegate.applescript */; };
+		85EB0061170E9D0800944C03 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85EB005F170E9D0800944C03 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		85EB0046170E9D0700944C03 /* ACME Fishman TriplePlay Removal Utility with Bacon Flavor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ACME Fishman TriplePlay Removal Utility with Bacon Flavor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85EB0049170E9D0700944C03 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		85EB004B170E9D0700944C03 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		85EB004E170E9D0700944C03 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		85EB004F170E9D0700944C03 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		85EB0050170E9D0700944C03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		85EB0053170E9D0700944C03 /* ACME Fishman TriplePlay Removal Utility with Bacon Flavor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ACME Fishman TriplePlay Removal Utility with Bacon Flavor-Info.plist"; sourceTree = "<group>"; };
+		85EB0055170E9D0700944C03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		85EB0057170E9D0700944C03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		85EB0059170E9D0700944C03 /* ACME Fishman TriplePlay Removal Utility with Bacon Flavor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ACME Fishman TriplePlay Removal Utility with Bacon Flavor-Prefix.pch"; sourceTree = "<group>"; };
+		85EB005B170E9D0700944C03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		85EB005D170E9D0700944C03 /* FSHAppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = FSHAppDelegate.applescript; sourceTree = "<group>"; };
+		85EB0060170E9D0800944C03 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85EB0043170E9D0700944C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85EB004A170E9D0700944C03 /* Cocoa.framework in Frameworks */,
+				85EB004C170E9D0700944C03 /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85EB003D170E9D0700944C03 = {
+			isa = PBXGroup;
+			children = (
+				85EB0051170E9D0700944C03 /* ACME Fishman TriplePlay Removal Utility with Bacon Flavor */,
+				85EB0048170E9D0700944C03 /* Frameworks */,
+				85EB0047170E9D0700944C03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85EB0047170E9D0700944C03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85EB0046170E9D0700944C03 /* ACME Fishman TriplePlay Removal Utility with Bacon Flavor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85EB0048170E9D0700944C03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85EB0049170E9D0700944C03 /* Cocoa.framework */,
+				85EB004B170E9D0700944C03 /* AppleScriptObjC.framework */,
+				85EB004D170E9D0700944C03 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85EB004D170E9D0700944C03 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85EB004E170E9D0700944C03 /* AppKit.framework */,
+				85EB004F170E9D0700944C03 /* CoreData.framework */,
+				85EB0050170E9D0700944C03 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		85EB0051170E9D0700944C03 /* ACME Fishman TriplePlay Removal Utility with Bacon Flavor */ = {
+			isa = PBXGroup;
+			children = (
+				85EB005D170E9D0700944C03 /* FSHAppDelegate.applescript */,
+				85EB005F170E9D0800944C03 /* MainMenu.xib */,
+				85EB0052170E9D0700944C03 /* Supporting Files */,
+			);
+			path = "ACME Fishman TriplePlay Removal Utility with Bacon Flavor";
+			sourceTree = "<group>";
+		};
+		85EB0052170E9D0700944C03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85EB0053170E9D0700944C03 /* ACME Fishman TriplePlay Removal Utility with Bacon Flavor-Info.plist */,
+				85EB0054170E9D0700944C03 /* InfoPlist.strings */,
+				85EB0057170E9D0700944C03 /* main.m */,
+				85EB0059170E9D0700944C03 /* ACME Fishman TriplePlay Removal Utility with Bacon Flavor-Prefix.pch */,
+				85EB005A170E9D0700944C03 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85EB0045170E9D0700944C03 /* ACME Fishman TriplePlay Removal Utility with Bacon Flavor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85EB0064170E9D0800944C03 /* Build configuration list for PBXNativeTarget "ACME Fishman TriplePlay Removal Utility with Bacon Flavor" */;
+			buildPhases = (
+				85EB0042170E9D0700944C03 /* Sources */,
+				85EB0043170E9D0700944C03 /* Frameworks */,
+				85EB0044170E9D0700944C03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ACME Fishman TriplePlay Removal Utility with Bacon Flavor";
+			productName = "ACME Fishman TriplePlay Removal Utility with Bacon Flavor";
+			productReference = 85EB0046170E9D0700944C03 /* ACME Fishman TriplePlay Removal Utility with Bacon Flavor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85EB003E170E9D0700944C03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FSH;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Fishman Transducer, Inc.";
+			};
+			buildConfigurationList = 85EB0041170E9D0700944C03 /* Build configuration list for PBXProject "ACME Fishman TriplePlay Removal Utility with Bacon Flavor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 85EB003D170E9D0700944C03;
+			productRefGroup = 85EB0047170E9D0700944C03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85EB0045170E9D0700944C03 /* ACME Fishman TriplePlay Removal Utility with Bacon Flavor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85EB0044170E9D0700944C03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85EB0056170E9D0700944C03 /* InfoPlist.strings in Resources */,
+				85EB005C170E9D0700944C03 /* Credits.rtf in Resources */,
+				85EB0061170E9D0800944C03 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85EB0042170E9D0700944C03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85EB0058170E9D0700944C03 /* main.m in Sources */,
+				85EB005E170E9D0700944C03 /* FSHAppDelegate.applescript in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		85EB0054170E9D0700944C03 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85EB0055170E9D0700944C03 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		85EB005A170E9D0700944C03 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85EB005B170E9D0700944C03 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		85EB005F170E9D0800944C03 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85EB0060170E9D0800944C03 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85EB0062170E9D0800944C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		85EB0063170E9D0800944C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		85EB0065170E9D0800944C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ACME Fishman TriplePlay Removal Utility with Bacon Flavor/ACME Fishman TriplePlay Removal Utility with Bacon Flavor-Prefix.pch";
+				INFOPLIST_FILE = "ACME Fishman TriplePlay Removal Utility with Bacon Flavor/ACME Fishman TriplePlay Removal Utility with Bacon Flavor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		85EB0066170E9D0800944C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ACME Fishman TriplePlay Removal Utility with Bacon Flavor/ACME Fishman TriplePlay Removal Utility with Bacon Flavor-Prefix.pch";
+				INFOPLIST_FILE = "ACME Fishman TriplePlay Removal Utility with Bacon Flavor/ACME Fishman TriplePlay Removal Utility with Bacon Flavor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85EB0041170E9D0700944C03 /* Build configuration list for PBXProject "ACME Fishman TriplePlay Removal Utility with Bacon Flavor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85EB0062170E9D0800944C03 /* Debug */,
+				85EB0063170E9D0800944C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85EB0064170E9D0800944C03 /* Build configuration list for PBXNativeTarget "ACME Fishman TriplePlay Removal Utility with Bacon Flavor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85EB0065170E9D0800944C03 /* Debug */,
+				85EB0066170E9D0800944C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85EB003E170E9D0700944C03 /* Project object */;
+}

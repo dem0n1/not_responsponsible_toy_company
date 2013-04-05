@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ACME Fishman TriplePlay Removal Utility with Bacon Flavor' target in the 'ACME Fishman TriplePlay Removal Utility with Bacon Flavor' project
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+#endif
